@@ -6,9 +6,9 @@ This project is a simple 2D game engine built on the SFML library. It's designed
 - **Graphics:** Rendering of 2D objects using SFML.
 - **Input Handling:** Basic input management for keyboard and mouse.
 - **Resource Management:** Loading and managing textures, sounds, and other resources.
-- **Entity System:** Simple entity system to manage game objects.
-- **Collision Detection:** Basic collision detection functionality.
-- **Game States:** Implementation of different game states (e.g., menu, playing).
+- **Entity System:** Simple entity system to manage game objects. (Partially Implemented)
+- **Collision Detection:** Basic collision detection functionality. (Not Implemented yet)
+- **Game States:** Implementation of different game states (e.g., menu, playing). (Partially Implemented)
 
 # Getting Started
 
@@ -31,11 +31,12 @@ git clone https://github.com/MarcinKa-dev/SFMLSimpleEngine.git
 ## Usage
 - **Adding Entities:**
 
-    - Extend the Entity class or create new classes implementing IEntity for game objects.
+    - Create new classes implementing Entity for game objects and also include components.
 
-- **Loading Textures:**
+- **Loading Textures and sounds:**
 
-    - Use the TextureManager to load and manage textures.
+    - Use the ResourceManager to load and manage textures.
+    - Use the AudioManager to load and manage Sounds.
 
 - **Handling Input:**
 
@@ -43,7 +44,7 @@ git clone https://github.com/MarcinKa-dev/SFMLSimpleEngine.git
 
 - **Managing Game States:**
 
-    - Create new classes implementing IGameState for different game states.
+    - Create new classes implementing AbstractGameState for different game states.
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request.
 
