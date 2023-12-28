@@ -19,7 +19,7 @@ This project is a simple 2D game engine built on the SFML library. It's designed
 
 ```bash
 Copy code
-git clone https://github.com/yourusername/your-game-engine.git
+git clone https://github.com/MarcinKa-dev/SFMLSimpleEngine.git
 ```
 ### Build the Project:
 
